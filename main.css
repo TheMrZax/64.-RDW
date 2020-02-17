@@ -1,86 +1,79 @@
-body
-{
-    margin: 0;
-    font-family: Roboto;
+body {
+  margin: 0;
+  font-family: Roboto;
 }
 
-header
-{
-    width: 100%;
-    height: 6em;
-    background-color: #378243;
+header {
+  width: 100%;
+  height: 6em;
+  background-color: #378243;
 }
 
-.tytul
-{
-    font-size: 22px;
-    width: 11em;
-    margin: 0 auto;
-    text-align: center;
+.tytul {
+  font-size: 28px;
+  width: 11em;
+  margin: 1em auto;
+  text-align: center;
+  color: black;
 }
 
-h1
-{
-    color: #83b57d;
+h1 {
+  color: #83b57d;
 }
 
-.text
-{
-    text-align: justify;
-    width: 60%;
-    margin: 0 auto;
-    word-spacing: 2px;
+.text {
+  text-align: justify;
+  max-width: 700px;
+  margin: 0 auto;
+  word-spacing: 2px;
 }
 
-.istotne
-{
-    letter-spacing: 1.20px;
-    font-weight: 600 /* 600 */;
+.istotne {
+  letter-spacing: 1.20px;
+  font-weight: 600
+    /* 600 */
+  ;
 }
 
-footer
-{
-    width: 100%;
-    height: 6em;
-    background-color: #378243;
-    position: sticky;
-    bottom: 0;
+footer {
+  width: 100%;
+  height: 5em;
+  background-color: #378243;
+  position: fixed;
+  bottom: 0;
 }
 
-.header-zawartosc
-{
-    width: 70%;
-    height: 6em;
-    margin: 0 auto;
-    vertical-align: middle;
+.header-zawartosc {
+  width: 70%;
+  height: 6em;
+  margin: 0 auto;
+  vertical-align: middle;
 }
 
-.footer-zawartosc
-{
-    width: 70%;
-    height: 6em;
-    margin: 0 auto;
-    margin-bottom: -10px;
-    float: left;
+.footer-zawartosc {
+  max-width: 1024px;
+  height: 4em;
+  margin: 0.5em auto;
+  display: flex;
+  justify-content: flex-start;
 }
 
-.hufiec-logo
-{
-    transform: translateY(3%);
+.footer-zawartosc i {
+  font-size: 3em;
+  margin: 0.5em 0.1em;
 }
 
-a:link
-{
-    color: white;
+.hufiec-logo img {
+  height: 5em;
+  margin: 0.5em 0
 }
 
-a:visited
-{
-    color: white;
+a:link {
+  color: white;
 }
 
-.logo-dol
-{
-    
+a:visited {
+  color: white;
 }
 
+.logo-dol {}
