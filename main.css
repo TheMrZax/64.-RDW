@@ -28,19 +28,19 @@ h1 {
   word-spacing: 2px;
 }
 .text img{
-  max-width: 100%
+  max-width: 100%;
+  border: 2px dashed #378243;
+  border-radius: 15px;
 }
 
 .istotne {
   letter-spacing: 1.20px;
-  font-weight: 600
-    /* 600 */
-  ;
+  font-weight: 600;
 }
 
 footer {
   width: 100%;
-  height: 5em;
+  height: 6em;
   background-color: #378243;
   position: fixed;
   bottom: 0;
@@ -54,21 +54,52 @@ footer {
 }
 
 .footer-zawartosc {
-  max-width: 1024px;
+  max-width: 70%;
   height: 4em;
-  margin: 0.5em auto;
+  margin: 0 auto;
   display: flex;
   justify-content: flex-start;
+    position: relative;
 }
 
+.favicony
+{
+      margin: 0.5em 0;
+}
+
+
 .footer-zawartosc i {
-  font-size: 3em;
+  font-size: 4em;
   margin: 0.5em 0.1em;
 }
 
 .hufiec-logo img {
   height: 5em;
-  margin: 0.5em 0
+  margin: 0.5em 0;
+  float: left;
+}
+
+.logo-wysrodkowanie
+{
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    bottom: 0;
+}
+
+.logo-wysrodkowanie-dol
+{
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo-gora img {
+    height: 6em;
+}
+
+.logo-dol img {
+    height: 6em;
 }
 
 a:link {
@@ -78,5 +109,3 @@ a:link {
 a:visited {
   color: white;
 }
-
-.logo-dol {}
